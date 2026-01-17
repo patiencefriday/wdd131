@@ -19,7 +19,7 @@ nav ul {
     list-style: none;
     display: flex;
     text-align: center;
-    background-color: rgb(44, 45, 69);
+    background-color: black;
     padding: 1rem;
 }
 li {
@@ -38,7 +38,10 @@ a:hover {
     display: block;
     text-align: center;
     font-size: large;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 1rem  1rem 0 0;
+}
+header {
+    padding: 1px;
 }
 #course-title, footer{
     padding: 2rem;
