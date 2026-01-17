@@ -31,6 +31,7 @@ header a {
 }
 li a:hover {
     text-decoration: underline;
+    text-decoration-color: yellowgreen;
     font-weight: bold;
 }
 #course-title {
@@ -46,6 +47,7 @@ header {
     padding: 2rem;
     background-color: var(--background-color);
     color: var(--color)
+
 }
 footer {
     border-radius: 0 0 1rem 1rem;
@@ -56,7 +58,7 @@ body {
     font-style: normal;
 }
 main {
-    max-width: 840px;
+    max-width: 900px;
     margin: auto;
 }
 section h2{
