@@ -1,0 +1,108 @@
+:root {
+    --background-color: rgb(74, 107, 89);
+    --border: 1px solid rgb(0 0 0 / 0.2);
+    --color: white;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, footer {
+    text-align: center;
+    padding: 1rem;   
+}
+nav {
+    margin: 0 auto;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    background-color: rgb(44, 45, 69);
+    padding: 1rem;
+}
+li {
+    flex: 1 1 auto;
+}
+a {
+    text-decoration: none;
+    color: var(--color);
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: yellowgreen;
+    font-weight: bold;
+}
+#course-title {
+    display: block;
+    text-align: center;
+    font-size: large;
+    border-radius: 1rem 1rem 0 0;
+}
+#course-title, footer{
+    padding: 2rem;
+    background-color: var(--background-color);
+    color: var(--color)
+}
+footer {
+    border-radius: 0 0 1rem 1rem;
+}
+body {
+    font-family: "Buda", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+}
+section h2{
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
+    color: var(--color);
+}
+figcaption {
+    text-align: center;
+    padding: 1rem;
+}
+.card ul {
+    padding: 3rem;
+}
+.card li {
+    padding: .5rem;
+}
+.card a {
+    color: black;
+}
+.container {
+    display: grid;
+    grid-template: 2fr auto / 2fr auto;
+    grid-gap: 1rem;
+}
+.card img{
+    float: right;
+    padding: .5rem;
+    margin: 10px;
+    border-radius: 2rem;
+}
+.card h3 {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: var(--border);
+}
+.card {
+    border: var(--border);
+    border-radius: 1rem;
+}
+.card p {
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+}
+.nigeria {
+    display: flex;   
+}
