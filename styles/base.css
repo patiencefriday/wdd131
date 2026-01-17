@@ -15,7 +15,7 @@ h1, footer {
 nav {
     margin: 0 auto;
 }
-nav ul {
+header ul {
     list-style: none;
     display: flex;
     text-align: center;
@@ -47,7 +47,6 @@ header {
     padding: 2rem;
     background-color: var(--background-color);
     color: var(--color)
-
 }
 footer {
     border-radius: 0 0 1rem 1rem;
