@@ -25,13 +25,12 @@ nav ul {
 li {
     flex: 1 1 auto;
 }
-a {
+header a {
     text-decoration: none;
     color: var(--color);
 }
-a:hover {
+li a:hover {
     text-decoration: underline;
-    text-decoration-color: yellowgreen;
     font-weight: bold;
 }
 #course-title {
@@ -78,7 +77,7 @@ figcaption {
     padding: .5rem;
 }
 .card a {
-    color: black;
+    text-decoration: none;
 }
 .container {
     display: grid;
