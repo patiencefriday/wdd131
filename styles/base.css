@@ -78,6 +78,7 @@ figcaption {
 }
 .card a {
     text-decoration: none;
+    color: black;
 }
 .container {
     display: grid;
