@@ -8,10 +8,6 @@
 body {
     font-family: "Roboto", sans-serif;
 }
-/* nav {
-    margin: 1rem auto;
-    display: flex;
-} */
 #menu {
     font-size: 1.5rem;
     border: 0;
@@ -49,7 +45,7 @@ nav {
     color: var(--primary-color);
     font-weight: bold;
 }
-header a {
+header{
     color: var(--primary-color);
 }
 .open a {
