@@ -8,14 +8,26 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+header{
+    color: var(--primary-color);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: midnightblue;
+    padding: 1rem;
+}
 #menu {
-    font-size: 1.5rem;
+    font-size: 2rem;
     border: 0;
     background: none;
     color: var(--primary-color);
     position: absolute;
     top: 2rem;
     right: 1rem;
+    cursor: pointer;
 }
 #menu::before {
     content: "☰";
@@ -23,33 +35,23 @@ body {
 #menu.open::before {
     content: "X";
 }
-nav {
-    margin: 1rem auto;
-}
 .navigation {
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    color: var(--primary-color);
-    background-color: black;
+    gap: 1rem;
 }
 .navigation a {
-    text-align: center;
-    text-decoration: none;
     display: none;
+    text-decoration: none;
     color: var(--primary-color);
     padding: 1rem;
 }
-.navigation a:hover {
-    text-decoration: underline;
-    color: var(--primary-color);
-    font-weight: bold;
-}
-header{
-    color: var(--primary-color);
-}
 .open a {
     display: block;
+}
+.navigation a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 main {
     display: grid;

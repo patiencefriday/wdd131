@@ -2,10 +2,10 @@ const currentyear = new Date().getFullYear();
 document.getElementById("currentyear").innerHTML = currentyear;
 document.getElementById("lastModified").innerHTML = document.lastModified;
 
-const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.navigation');
+const hamButton = document.getElementById("menu");
+const nav = document.getElementById("navbar");
 
-hamButton.addEventListener('click', () => {
-    navigation.classList.toggle('open');
-    hamButton.classList.toggle('open');
+hamButton.addEventListener("click", () => {
+    hamButton.classList.toggle("open");
+    nav.classList.toggle("open");
 });

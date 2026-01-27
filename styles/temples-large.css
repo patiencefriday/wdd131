@@ -12,8 +12,9 @@
     .navigation {
         flex-direction: row;
     }
-    header p {
-        text-align: center;
+    header {
+        display: flex;
+        justify-content: space-evenly;
     }
     .navigation a {
         display: block;
