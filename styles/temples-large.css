@@ -1,0 +1,28 @@
+@media screen and (min-width: 37rem) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    h1 {
+        grid-column: 1/4;
+    }
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+    header p {
+        text-align: center;
+    }
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
+    figcaption {
+        margin-bottom: .5rem;
+        font-size: small;
+    }
+
+}
