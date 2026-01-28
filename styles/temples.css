@@ -76,13 +76,10 @@ header p {
 }
 figure img {
     width: 100%;
-    height: 80%; 
-    border-radius: 1rem;  
+    height: auto; 
 }
 figure {
-    background-color: lightgray;
     padding: 1rem;
-    border-radius: 1rem;
 }
 figcaption {
     text-align: center;

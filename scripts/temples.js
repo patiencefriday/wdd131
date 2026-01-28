@@ -3,9 +3,9 @@ document.getElementById("currentyear").innerHTML = currentyear;
 document.getElementById("lastModified").innerHTML = document.lastModified;
 
 const hamButton = document.querySelector("#menu");
-const nav = document.querySelector(".navigation");
+const navigation = document.querySelector(".navigation");
 
 hamButton.addEventListener("click", () => {
     hamButton.classList.toggle("open");
-    nav.classList.toggle("open");
+    navigation.classList.toggle("open");
 });
